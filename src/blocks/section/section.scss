@@ -1,0 +1,14 @@
+.section {
+	margin-bottom: 2em;
+}
+
+.section__headline {
+	margin-bottom: 1em;
+	padding-left: .5em;
+	border-left: .4em solid $orange;
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: #fff;
+	text-transform: uppercase;
+	background: linear-gradient(to right, $gray 0%, $gray 70%, ($gray + #222) 80%, ($gray + #444) 90%, ($gray + #666) 100%);
+}

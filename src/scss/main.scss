@@ -1,0 +1,74 @@
+@import 'variables';
+
+
+.document {
+	font-size: 100%;
+}
+
+
+
+
+
+.header {
+	display: flex;
+	align-items: center;
+}
+
+.header__photo {
+	flex: 2;
+}
+
+.header__headline {
+	flex: 3;
+	padding-left: 2em;
+}
+
+.header__img {
+	width: 100%;
+	height: auto;
+}
+
+.header__headline {
+	font-family: $montserrat;
+}
+
+.header__name {
+	font-size: 2.5rem;
+	line-height: 1;
+}
+
+.header__lastname {
+	font-weight: bold;
+}
+
+.header__profession {
+	font-size: 1.2rem;
+	line-height: 1.2;
+	font-weight: bold;
+}
+
+
+.page {
+	font-size: 1.1em;
+	line-height: 1.5;
+	font-family: $roboto;
+	padding-left: $pagepad;
+	padding-right: $pagepad;
+}
+
+
+
+.section {
+	margin-bottom: 2em;
+}
+
+.section__headline {
+	margin-bottom: 1em;
+	padding-left: .5em;
+	border-left: .4em solid $orange;
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: #fff;
+	text-transform: uppercase;
+	background: linear-gradient(to right, $gray 0%, $gray 70%, ($gray + #222) 80%, ($gray + #444) 90%, ($gray + #666) 100%);
+}
