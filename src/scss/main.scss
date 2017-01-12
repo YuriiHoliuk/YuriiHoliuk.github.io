@@ -45,7 +45,7 @@
 
 .document {
 	font-size: 100%;
-	background: url('../../img/bg.jpg') 0 0 no-repeat fixed;
+	background: url('../img/bg.jpg') 0 0 no-repeat fixed;
 	background-size: 100% 100vh;
 }
 
@@ -145,18 +145,6 @@
 	}
 }
 
-.institution {
-	margin-bottom: $pad-sm;
-	&__headline {
-		font-family: $headfont;
-		font-size: $head3font;
-		font-weight: bold;
-	}
-	&__date {
-		font-style: italic;
-		color: $basecolor;
-	}
-}
 .page {
 	font-size: $base-lg-font;
 	line-height: 1.5;
@@ -172,30 +160,23 @@
 		max-width: 1300px;
 	}
 }
+.institution {
+	margin-bottom: $pad-sm;
+	&__headline {
+		font-family: $headfont;
+		font-size: $head3font;
+		font-weight: bold;
+	}
+	&__date {
+		font-style: italic;
+		color: $basecolor;
+	}
+}
 
 .portfolio {
 	&__content {
 		@include laptop {
 			padding: $pad;
-		}
-	}
-}
-.row {
-	@include tablet {
-		display: flex;
-		justify-content: space-between;
-		&__col {
-			width: 47%;
-		}
-	}
-}
-
-.row_p {
-	@include tablet {
-		display: flex;
-		justify-content: space-around;
-		&__col {
-			width: 40%;
 		}
 	}
 }
@@ -221,6 +202,25 @@
 
 
 
+.row {
+	@include tablet {
+		display: flex;
+		justify-content: space-between;
+		&__col {
+			width: 47%;
+		}
+	}
+}
+
+.row_p {
+	@include tablet {
+		display: flex;
+		justify-content: space-around;
+		&__col {
+			width: 40%;
+		}
+	}
+}
 .skills {
 	&__block {
 		margin-bottom: $pad-sm;
