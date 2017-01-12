@@ -49,39 +49,35 @@
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center; }
-
-.header__photo {
-  -webkit-box-flex: 2;
-  -webkit-flex: 2;
-      -ms-flex: 2;
-          flex: 2; }
-
-.header__headline {
-  -webkit-box-flex: 3;
-  -webkit-flex: 3;
-      -ms-flex: 3;
-          flex: 3;
-  padding-left: 2em; }
-
-.header__img {
-  width: 100%;
-  height: auto; }
-
-.header__headline {
-  font-family: "Montserrat", sans-serif; }
-
-.header__name {
-  font-size: 2.5rem;
-  line-height: 1; }
-
-.header__lastname {
-  font-weight: bold;
-  color: orange; }
-
-.header__profession {
-  font-size: 1.2rem;
-  line-height: 1.2;
-  font-weight: bold; }
+  .header__photo {
+    -webkit-box-flex: 2;
+    -webkit-flex: 2;
+        -ms-flex: 2;
+            flex: 2; }
+  .header__headline {
+    -webkit-box-flex: 3;
+    -webkit-flex: 3;
+        -ms-flex: 3;
+            flex: 3;
+    padding-left: 2em; }
+  .header__img {
+    width: 100%;
+    height: auto;
+    padding: .3em;
+    border: 2px solid orange;
+    border-radius: 50%; }
+  .header__headline {
+    font-family: "Montserrat", sans-serif; }
+  .header__name {
+    font-size: 2.5rem;
+    line-height: 1; }
+  .header__lastname {
+    font-weight: bold;
+    color: orange; }
+  .header__profession {
+    font-size: 1.2rem;
+    line-height: 1.2;
+    font-weight: bold; }
 
 .institution {
   margin-bottom: .5em; }
@@ -98,7 +94,8 @@
   line-height: 1.5;
   font-family: "Roboto", sans-serif;
   padding-left: 4.91935%;
-  padding-right: 4.91935%; }
+  padding-right: 4.91935%;
+  padding-top: 1em; }
 
 .section {
   margin-bottom: 2em; }

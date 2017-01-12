@@ -52,40 +52,36 @@
 .header {
 	display: flex;
 	align-items: center;
-}
-
-.header__photo {
-	flex: 2;
-}
-
-.header__headline {
-	flex: 3;
-	padding-left: 2em;
-}
-
-.header__img {
-	width: 100%;
-	height: auto;
-}
-
-.header__headline {
-	font-family: $headfont;
-}
-
-.header__name {
-	font-size: 2.5rem;
-	line-height: 1;
-}
-
-.header__lastname {
-	font-weight: bold;
-	color: $maincolor;
-}
-
-.header__profession {
-	font-size: 1.2rem;
-	line-height: 1.2;
-	font-weight: bold;
+	&__photo {
+		flex: 2;
+	}
+	&__headline {
+		flex: 3;
+		padding-left: 2em;
+	}
+	&__img {
+		width: 100%;
+		height: auto;
+		padding: .3em;
+		border: 2px solid $maincolor;
+		border-radius: 50%;
+	}
+	&__headline {
+		font-family: $headfont;
+	}
+	&__name {
+		font-size: 2.5rem;
+		line-height: 1;
+	}
+	&__lastname {
+		font-weight: bold;
+		color: $maincolor;
+	}
+	&__profession {
+		font-size: 1.2rem;
+		line-height: 1.2;
+		font-weight: bold;
+	}
 }
 
 .institution {
@@ -106,6 +102,7 @@
 	font-family: $commonfont;
 	padding-left: $pagepad;
 	padding-right: $pagepad;
+	padding-top: 1em;
 }
 
 
