@@ -45,6 +45,8 @@
 
 .document {
 	font-size: 100%;
+	background: url('../../img/bg.jpg') 0 0 no-repeat fixed;
+	background-size: 100% 100vh;
 }
 
 .example {
@@ -79,7 +81,7 @@
 		text-transform: uppercase;
 		color: ($maincolor - #333);
 		@include laptop {
-			font-size: $head3font-lg;
+			font-size: $head2font;
 		}
 	}
 	&__description {
@@ -87,7 +89,7 @@
 		color: ($basecolor);
 		margin-left: $pad;
 		@include laptop {
-			font-size: $base-xl-font;
+			font-size: $base-lg-font;
 		}
 	}
 	&__button {
@@ -101,7 +103,7 @@
 		background-color: rgba(($maincolor - #111), .7);
 		border: 1px solid $basecolor;
 		@include laptop {
-			font-size: $base-xl-font;
+			font-size: $base-lg-font;
 			padding: $pad-xs $pad-lg $pad-xs;
 		}
 	}
@@ -187,6 +189,16 @@
 		}
 	}
 }
+
+.row_p {
+	@include tablet {
+		display: flex;
+		justify-content: space-around;
+		&__col {
+			width: 40%;
+		}
+	}
+}
 .section {
 	margin-bottom: $pad-lg;
 	&__headline {
@@ -202,7 +214,8 @@
 	&__content {
 		padding: $pad-sm;
 		border: 1px solid ($basecolor + #444);
-		box-shadow: $pad-sm $pad-sm $pad-sm ($basecolor + #333);
+		background-color: rgba(#fff, .7);
+		box-shadow: $pad-xs $pad-xs $pad-xs ($basecolor + #222);
 	}
 }
 

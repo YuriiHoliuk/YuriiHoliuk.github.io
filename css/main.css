@@ -38,7 +38,9 @@
       margin-right: 1em; }
 
 .document {
-  font-size: 100%; }
+  font-size: 100%;
+  background: url("../../img/bg.jpg") 0 0 no-repeat fixed;
+  background-size: 100% 100vh; }
 
 .example {
   position: relative;
@@ -162,7 +164,8 @@
   .section__content {
     padding: 0.5em;
     border: 1px solid #aaaaaa;
-    box-shadow: 0.5em 0.5em 0.5em #999999; }
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0.4em 0.4em 0.4em #888888; }
 
 .skills__block {
   margin-bottom: 0.5em; }
@@ -177,11 +180,11 @@
   .example__hover {
     padding: 1em; }
   .example__headline {
-    font-size: 1.75rem; }
-  .example__description {
     font-size: 1.5rem; }
+  .example__description {
+    font-size: 1.1rem; }
   .example__button {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     padding: 0.4em 2em 0.4em; }
   .page {
     margin: 0 auto;
@@ -204,4 +207,14 @@
     -ms-flex-pack: justify;
     justify-content: space-between; }
   .row__col {
-    width: 47%; } }
+    width: 47%; }
+  .row_p {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around; }
+  .row_p__col {
+    width: 40%; } }

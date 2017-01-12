@@ -13,7 +13,8 @@
 	&__content {
 		padding: $pad-sm;
 		border: 1px solid ($basecolor + #444);
-		box-shadow: $pad-sm $pad-sm $pad-sm ($basecolor + #333);
+		background-color: rgba(#fff, .7);
+		box-shadow: $pad-xs $pad-xs $pad-xs ($basecolor + #222);
 	}
 }
 

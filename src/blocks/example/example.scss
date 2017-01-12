@@ -30,7 +30,7 @@
 		text-transform: uppercase;
 		color: ($maincolor - #333);
 		@include laptop {
-			font-size: $head3font-lg;
+			font-size: $head2font;
 		}
 	}
 	&__description {
@@ -38,7 +38,7 @@
 		color: ($basecolor);
 		margin-left: $pad;
 		@include laptop {
-			font-size: $base-xl-font;
+			font-size: $base-lg-font;
 		}
 	}
 	&__button {
@@ -52,7 +52,7 @@
 		background-color: rgba(($maincolor - #111), .7);
 		border: 1px solid $basecolor;
 		@include laptop {
-			font-size: $base-xl-font;
+			font-size: $base-lg-font;
 			padding: $pad-xs $pad-lg $pad-xs;
 		}
 	}

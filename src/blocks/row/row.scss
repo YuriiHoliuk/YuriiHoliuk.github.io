@@ -7,3 +7,13 @@
 		}
 	}
 }
+
+.row_p {
+	@include tablet {
+		display: flex;
+		justify-content: space-around;
+		&__col {
+			width: 40%;
+		}
+	}
+}
