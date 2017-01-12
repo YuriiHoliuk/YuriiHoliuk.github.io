@@ -1,0 +1,11 @@
+.skills {
+	&__block {
+		margin-bottom: .5em;
+	}
+	&__headline {
+		font-family: $headfont;
+		font-size: $head3font;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+}
