@@ -1,3 +1,42 @@
+.contact {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  .contact:not(:last-child) {
+    padding-bottom: .3em; }
+  .contact__headline {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: orange;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1; }
+  .contact__value {
+    -webkit-box-flex: 3;
+    -webkit-flex: 3;
+        -ms-flex: 3;
+            flex: 3; }
+  .contact__email {
+    color: #444444; }
+    .contact__email i {
+      margin-right: .5em; }
+  .contact__phone {
+    display: block;
+    color: #444444; }
+    .contact__phone i {
+      margin-right: .5em; }
+  .contact__skype {
+    color: #444444; }
+    .contact__skype i {
+      margin-right: .5em; }
+  .contact__social {
+    color: #444444; }
+    .contact__social:not(:last-child) {
+      margin-right: 1em; }
+
 .document {
   font-size: 100%; }
 
@@ -36,12 +75,23 @@
   line-height: 1; }
 
 .header__lastname {
-  font-weight: bold; }
+  font-weight: bold;
+  color: orange; }
 
 .header__profession {
   font-size: 1.2rem;
   line-height: 1.2;
   font-weight: bold; }
+
+.institution {
+  margin-bottom: .5em; }
+  .institution__headline {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold; }
+  .institution__date {
+    font-style: italic;
+    color: #666; }
 
 .page {
   font-size: 1.1em;
@@ -52,14 +102,26 @@
 
 .section {
   margin-bottom: 2em; }
+  .section__headline {
+    margin-bottom: 1em;
+    padding-left: .5em;
+    border-left: 0.4em solid orange;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(left, #666 0%, #666 70%, #888888 80%, #aaaaaa 90%, #cccccc 100%);
+    background: linear-gradient(to right, #666 0%, #666 70%, #888888 80%, #aaaaaa 90%, #cccccc 100%); }
+  .section__content {
+    padding: .5em;
+    border: 1px solid #aaaaaa;
+    box-shadow: 0.5em 0.5em 0.5em #999999; }
 
-.section__headline {
-  margin-bottom: 1em;
-  padding-left: .5em;
-  border-left: 0.4em solid orange;
-  font-size: 1.5rem;
+.skills__block {
+  margin-bottom: .5em; }
+
+.skills__headline {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
   font-weight: bold;
-  color: #fff;
-  text-transform: uppercase;
-  background: -webkit-linear-gradient(left, #666 0%, #666 70%, #888888 80%, #aaaaaa 90%, #cccccc 100%);
-  background: linear-gradient(to right, #666 0%, #666 70%, #888888 80%, #aaaaaa 90%, #cccccc 100%); }
+  text-transform: uppercase; }
