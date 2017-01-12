@@ -39,7 +39,7 @@
 
 .document {
   font-size: 100%;
-  background: url("../img/bg.jpg") 0 0 no-repeat fixed;
+  background: url(../img/bg.jpg) 0 0 no-repeat fixed;
   background-size: 100% 100vh; }
 
 .example {
@@ -131,14 +131,6 @@
     line-height: 1.2;
     font-weight: bold; }
 
-.page {
-  font-size: 1.1rem;
-  line-height: 1.5;
-  font-family: "Roboto", sans-serif;
-  padding-left: 4.91935%;
-  padding-right: 4.91935%;
-  padding-top: 1em; }
-
 .institution {
   margin-bottom: 0.5em; }
   .institution__headline {
@@ -148,6 +140,14 @@
   .institution__date {
     font-style: italic;
     color: #666; }
+
+.page {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+  padding-left: 4.91935%;
+  padding-right: 4.91935%;
+  padding-top: 1em; }
 
 .section {
   margin-bottom: 2em; }
