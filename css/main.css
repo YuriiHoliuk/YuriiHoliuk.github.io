@@ -1,0 +1,65 @@
+.document {
+  font-size: 100%; }
+
+.header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.header__photo {
+  -webkit-box-flex: 2;
+  -webkit-flex: 2;
+      -ms-flex: 2;
+          flex: 2; }
+
+.header__headline {
+  -webkit-box-flex: 3;
+  -webkit-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  padding-left: 2em; }
+
+.header__img {
+  width: 100%;
+  height: auto; }
+
+.header__headline {
+  font-family: "Montserrat", sans-serif; }
+
+.header__name {
+  font-size: 2.5rem;
+  line-height: 1; }
+
+.header__lastname {
+  font-weight: bold; }
+
+.header__profession {
+  font-size: 1.2rem;
+  line-height: 1.2;
+  font-weight: bold; }
+
+.page {
+  font-size: 1.1em;
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+  padding-left: 4.91935%;
+  padding-right: 4.91935%; }
+
+.section {
+  margin-bottom: 2em; }
+
+.section__headline {
+  margin-bottom: 1em;
+  padding-left: .5em;
+  border-left: 0.4em solid orange;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  background: -webkit-linear-gradient(left, #666 0%, #666 70%, #888888 80%, #aaaaaa 90%, #cccccc 100%);
+  background: linear-gradient(to right, #666 0%, #666 70%, #888888 80%, #aaaaaa 90%, #cccccc 100%); }
