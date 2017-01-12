@@ -1,8 +1,12 @@
 .page {
-	font-size: 1.1em;
+	font-size: $base-lg-font;
 	line-height: 1.5;
 	font-family: $commonfont;
 	padding-left: $pagepad;
 	padding-right: $pagepad;
-	padding-top: 1em;
+	padding-top: $pad;
+	@include laptop {
+		margin: 0 auto;
+		max-width: $laptop-width;
+	}
 }

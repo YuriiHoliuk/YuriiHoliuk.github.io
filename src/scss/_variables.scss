@@ -1,11 +1,30 @@
+
+//  layout variables
+
 $page: 2480px; //Ширина макету
 $o-pagepad: 122px; //Відступ макету
 $pagepad: $o-pagepad / $page * 100%;
+
+$pad: 1em;
+$pad-lg: 2em;
+$pad-sm: .5em;
+$pad-xs: .4em;
+$pad-xxs: .3em;
+
+//  fonts variables
+
 $headfont: 'Montserrat', sans-serif;
 $commonfont: 'Roboto', sans-serif;
-$basecolor: #666;
-$maincolor: orange;
+
+// font-size variables
+
 $basefont: 1rem;
+$base-lg-font: $basefont * 1.1;
 $head1font: $basefont * 2.5;
 $head2font: $basefont * 1.5;
 $head3font: $basefont * 1.2;
+
+//  colors variables
+
+$basecolor: #666;
+$maincolor: orange;

@@ -1,19 +1,19 @@
 .section {
-	margin-bottom: 2em;
+	margin-bottom: $pad-lg;
 	&__headline {
-		margin-bottom: 1em;
-		padding-left: .5em;
-		border-left: .4em solid $maincolor;
-		font-size: 1.5rem;
+		margin-bottom: $pad;
+		padding-left: $pad-sm;
+		border-left: $pad-xs solid $maincolor;
+		font-size: $head2font;
 		font-weight: bold;
 		color: #fff;
 		text-transform: uppercase;
 		background: linear-gradient(to right, $basecolor 0%, $basecolor 70%, ($basecolor + #222) 80%, ($basecolor + #444) 90%, ($basecolor + #666) 100%);
 	}
 	&__content {
-		padding: .5em;
+		padding: $pad-sm;
 		border: 1px solid ($basecolor + #444);
-		box-shadow: .5em .5em .5em ($basecolor + #333);
+		box-shadow: $pad-sm $pad-sm $pad-sm ($basecolor + #333);
 	}
 }
 

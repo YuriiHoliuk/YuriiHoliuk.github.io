@@ -1,7 +1,7 @@
 .contact {
 	display: flex;
 	&:not(:last-child) {
-		padding-bottom: .3em;
+		padding-bottom: $pad-xxs;
 	}
 	&__headline {
 		font-family: $headfont;
@@ -16,26 +16,26 @@
 	&__email {
 		color: ($basecolor - #222);
 		i {
-			margin-right: .5em;
+			margin-right: $pad-sm;
 		}
 	}
 	&__phone {
 		display: block;
 		color: ($basecolor - #222);
 		i {
-			margin-right: .5em;
+			margin-right: $pad-sm;
 		}
 	}
 	&__skype {
 		color: ($basecolor - #222);
 		i {
-			margin-right: .5em;
+			margin-right: $pad-sm;
 		}
 	}
 	&__social {
 		color: ($basecolor - #222);
 		&:not(:last-child) {
-			margin-right: 1em;
+			margin-right: $pad;
 		}
 	}
 }

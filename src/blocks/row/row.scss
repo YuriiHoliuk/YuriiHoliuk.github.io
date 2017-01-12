@@ -1,0 +1,9 @@
+.row {
+	@include tablet {
+		display: flex;
+		justify-content: space-between;
+		&__col {
+			width: 47%;
+		}
+	}
+}
