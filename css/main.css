@@ -40,6 +40,56 @@
 .document {
   font-size: 100%; }
 
+.example {
+  position: relative;
+  margin-bottom: 2em; }
+  .example:hover .example__hover {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+  .example__img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #dd8300; }
+  .example__hover {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+    -webkit-flex-flow: column nowrap;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 0.5em;
+    background-color: rgba(255, 255, 255, 0.9); }
+  .example__headline {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: #cc7200; }
+  .example__description {
+    width: 60%;
+    color: #666;
+    margin-left: 1em; }
+  .example__button {
+    -webkit-align-self: flex-end;
+        -ms-flex-item-align: end;
+            align-self: flex-end;
+    margin-bottom: 0.5em;
+    margin-right: 0.5em;
+    padding: 0.5em 1em 0.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #444444;
+    background-color: rgba(238, 148, 0, 0.7);
+    border: 1px solid #666; }
+
 .header {
   display: -webkit-box;
   display: -webkit-flex;
@@ -124,9 +174,24 @@
   text-transform: uppercase; }
 
 @media only screen and (min-width: 1100px) {
+  .example__hover {
+    padding: 1em; }
+  .example__headline {
+    font-size: 1.75rem; }
+  .example__description {
+    font-size: 1.5rem; }
+  .example__button {
+    font-size: 1.5rem;
+    padding: 0.4em 2em 0.4em; }
   .page {
     margin: 0 auto;
-    max-width: 1100px; } }
+    max-width: 1100px; }
+  .portfolio__content {
+    padding: 1em; } }
+
+@media only screen and (min-width: 1920px) {
+  .page {
+    max-width: 1300px; } }
 
 @media only screen and (min-width: 640px) {
   .row {

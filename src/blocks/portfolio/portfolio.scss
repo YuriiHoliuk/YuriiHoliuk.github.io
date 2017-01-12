@@ -1,0 +1,7 @@
+.portfolio {
+	&__content {
+		@include laptop {
+			padding: $pad;
+		}
+	}
+}

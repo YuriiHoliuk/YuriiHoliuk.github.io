@@ -47,7 +47,65 @@
 	font-size: 100%;
 }
 
-
+.example {
+	position: relative;
+	margin-bottom: $pad-lg;
+	&:hover &__hover {
+		display: flex;
+	}
+	&__img {
+		width: 100%;
+		height: auto;
+		border: 2px solid ($maincolor - #222);
+	}
+	&__hover {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		display: none;
+		flex-flow: column nowrap;
+		justify-content: space-between;
+		padding: $pad-sm;
+		background-color: rgba(#fff, .9);
+		@include laptop {
+			padding: $pad;
+		}
+	}
+	&__headline {
+		font-family: $headfont;
+		font-size: $head3font;
+		text-transform: uppercase;
+		color: ($maincolor - #333);
+		@include laptop {
+			font-size: $head3font-lg;
+		}
+	}
+	&__description {
+		width: 60%;
+		color: ($basecolor);
+		margin-left: $pad;
+		@include laptop {
+			font-size: $base-xl-font;
+		}
+	}
+	&__button {
+		align-self: flex-end;
+		margin-bottom: $pad-sm;
+		margin-right: $pad-sm;
+		padding: $pad-sm $pad $pad-sm;
+		font-weight: bold;
+		text-transform: uppercase;
+		color: ($basecolor - #222);
+		background-color: rgba(($maincolor - #111), .7);
+		border: 1px solid $basecolor;
+		@include laptop {
+			font-size: $base-xl-font;
+			padding: $pad-xs $pad-lg $pad-xs;
+		}
+	}
+}
 
 
 .header {
@@ -108,9 +166,18 @@
 		margin: 0 auto;
 		max-width: $laptop-width;
 	}
+	@include desktop {
+		max-width: 1300px;
+	}
 }
 
-
+.portfolio {
+	&__content {
+		@include laptop {
+			padding: $pad;
+		}
+	}
+}
 .row {
 	@include tablet {
 		display: flex;

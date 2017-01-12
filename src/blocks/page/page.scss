@@ -9,4 +9,7 @@
 		margin: 0 auto;
 		max-width: $laptop-width;
 	}
+	@include desktop {
+		max-width: 1300px;
+	}
 }
