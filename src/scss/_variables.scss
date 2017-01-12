@@ -1,8 +1,11 @@
-$page: 2480px;
-$o-pagepad: 122px;
+$page: 2480px; //Ширина макету
+$o-pagepad: 122px; //Відступ макету
 $pagepad: $o-pagepad / $page * 100%;
-$montserrat: 'Montserrat', sans-serif;
-$roboto: 'Roboto', sans-serif;
-$blue: #006cb4;
-$gray: #666;
-$orange: orange;
+$headfont: 'Montserrat', sans-serif;
+$commonfont: 'Roboto', sans-serif;
+$basecolor: #666;
+$maincolor: orange;
+$basefont: 1rem;
+$head1font: $basefont * 2.5;
+$head2font: $basefont * 1.5;
+$head3font: $basefont * 1.2;

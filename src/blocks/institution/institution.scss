@@ -1,0 +1,12 @@
+.institution {
+	margin-bottom: .5em;
+	&__headline {
+		font-family: $headfont;
+		font-size: $head3font;
+		font-weight: bold;
+	}
+	&__date {
+		font-style: italic;
+		color: $basecolor;
+	}
+}

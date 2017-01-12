@@ -18,7 +18,7 @@
 }
 
 .header__headline {
-	font-family: $montserrat;
+	font-family: $headfont;
 }
 
 .header__name {
@@ -28,6 +28,7 @@
 
 .header__lastname {
 	font-weight: bold;
+	color: $maincolor;
 }
 
 .header__profession {

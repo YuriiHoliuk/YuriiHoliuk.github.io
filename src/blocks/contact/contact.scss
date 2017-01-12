@@ -1,0 +1,41 @@
+.contact {
+	display: flex;
+	&:not(:last-child) {
+		padding-bottom: .3em;
+	}
+	&__headline {
+		font-family: $headfont;
+		font-size: $head3font;
+		font-weight: bold;
+		color: $maincolor;
+		flex: 1;
+	}
+	&__value {
+		flex: 3;
+	}
+	&__email {
+		color: ($basecolor - #222);
+		i {
+			margin-right: .5em;
+		}
+	}
+	&__phone {
+		display: block;
+		color: ($basecolor - #222);
+		i {
+			margin-right: .5em;
+		}
+	}
+	&__skype {
+		color: ($basecolor - #222);
+		i {
+			margin-right: .5em;
+		}
+	}
+	&__social {
+		color: ($basecolor - #222);
+		&:not(:last-child) {
+			margin-right: 1em;
+		}
+	}
+}
