@@ -42,12 +42,12 @@
 		}
 	}
 }
-
 .document {
 	font-size: 100%;
 	background: url('../img/bg2.jpg') 0 0 no-repeat fixed;
 	background-size: 100% 100vh;
 }
+
 
 .example {
 	position: relative;
@@ -145,18 +145,6 @@
 	}
 }
 
-.institution {
-	margin-bottom: $pad-sm;
-	&__headline {
-		font-family: $headfont;
-		font-size: $head3font;
-		font-weight: bold;
-	}
-	&__date {
-		font-style: italic;
-		color: $basecolor;
-	}
-}
 .page {
 	font-size: $base-lg-font;
 	line-height: 1.5;
@@ -170,6 +158,18 @@
 	}
 	@include desktop {
 		max-width: 1300px;
+	}
+}
+.institution {
+	margin-bottom: $pad-sm;
+	&__headline {
+		font-family: $headfont;
+		font-size: $head3font;
+		font-weight: bold;
+	}
+	&__date {
+		font-style: italic;
+		color: $basecolor;
 	}
 }
 
